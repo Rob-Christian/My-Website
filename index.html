@@ -45,6 +45,12 @@
             background-color: white;
             border-radius: 5px;
         }
+        .personal-details, .work_experience, .research_outputs, .projects {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
         .about-container {
             display: flex;
             align-items: flex-start;
@@ -74,22 +80,34 @@
         <a href="#projects" onclick="showSection('projects')">Personal Projects</a>
     </nav>
 
-    <section id="about" class="container">
+    <section id="about" class="container active">
         <h2>About Me</h2>
         <div class="about-container">
             <img src="profile_pic.jpg" alt="Rob Christian Caduyac">
             <div class="about-text">
                 <p><strong>Name:</strong> Rob Christian Caduyac</p>
                 <p><strong>Email:</strong> rmcaduyac1@up.edu.ph</p>
-                <p><strong>Educational Background:</strong></p>
+                <p><strong>Achievements:</strong></p>
                 <ul>
-                    <li>M.Sc. in Electrical Engineering, University of the Philippines Diliman [2022 - present]</li>
-                    <li>B.Sc. in Electrical Engineering, University of the Philippines Los Baños [2015-2020]</li>
+                    <li>Top 1, Registered Electrical Engineer</li>
+                    <li>April 2022 Registered Electrical Engineer Licensure Exam</li>
+                    <li>Mathematics – 95.00</li>
+                    <li>Engineering Sciences and Allied Subjects – 93.00</li>
+                    <li>Electrical Engineering – 89.00</li>
+                    <li>AVERAGE: 91.70</li>
+                </ul>
+                <p><strong>Interests:</strong></p>
+                <p>My interest lies in the theory of artificial intelligence and its applications in different domains. Currently, I am working with mini-projects about applications of Generative AI.</p>
+                <p><strong>My Websites:</strong></p>
+                <ul>
+                    <li><a href="https://linkedin.com/in/rob-christian-caduyac-56190a19a/">LinkedIn</a></li>
+                    <li><a href="https://github.com/Rob-Christian">GitHub</a></li>
+                    <li><a href="https://medium.com/@rmcaduyac1_30165">Medium</a></li>
                 </ul>
             </div>
         </div>
     </section>
-    
+
     <section id="work_experience" class="container">
         <h2>Work Experience</h2>
         <ol>
@@ -132,7 +150,6 @@
 
     <section id="research_outputs" class="container">
         <h2>Research Outputs</h2>
-        
         <h3>Publications</h3>
         <ol>
             <li>
@@ -146,7 +163,6 @@
                 in CRC Press eBooks, 2024, pp. 63–67.
             </li>
         </ol>
-        
         <h3>Conference Presentations</h3>
         <ol>
             <li>
@@ -185,13 +201,13 @@
                 <p><strong>Brief Description:</strong> A DCGAN architecture was implemented using Python and Torch through Google Collaboratory. This enables students and researchers to apply the architecture for applications such as, but not limited to, data augmentation, fake image generation, etc.</p>
             </li>
         </ul>
-		<h3>Machine Learning Applications</h3>
-		<ul>
-			<li>
-				<a href="https://cats-vs-dogs-classifier-09199909.streamlit.app/"><strong>Cats vs Dogs Classification</strong></a>
-				<p><strong>Brief Description:</strong> This is a website that lets the user input an image of either cat or dog and outputs the classification with corresponding probability. This application used pretrained ResNet50 and was trained from this <a href="https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification/data?select=train">kaggle dataset</a></p>
-			</li>
-		</ul>
+        <h3>Machine Learning Applications</h3>
+        <ul>
+            <li>
+                <a href="https://cats-vs-dogs-classifier-09199909.streamlit.app/"><strong>Cats vs Dogs Classification</strong></a>
+                <p><strong>Brief Description:</strong> This is a website that lets the user input an image of either cat or dog and outputs the classification with corresponding probability. This application used pretrained ResNet50 and was trained from this <a href="https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification/data?select=train">kaggle dataset</a></p>
+            </li>
+        </ul>
     </section>
 
     <script>
