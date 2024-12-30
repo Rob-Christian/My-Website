@@ -186,13 +186,51 @@
 
     <section id="projects" class="container">
         <h2>My Personal Projects</h2>
-        <h3>Blogs</h3>
+        <h3><strong>Deployed AI Projects</strong></h3>
         <ol>
+            <li>
+                <strong>:Medium Website Chatbot</strong>
+                <p><strong>Brief Description:</strong> This is an application that allows user to input a valid <a href="https://medium.com/">medium blog</a>. The application can now answer questions based on the website, while incorporating past conversations with the user in the same session. This is a retrieval-based generative AI application with chat conversation memory storage.
+                <p><strong>Key Tool(s):</strong> 
+                <p><a href="https://medium-website-chatbot-0909.streamlit.app/">App Link</a> | <a href="https://github.com/Rob-Christian/Medium-Website-Chatbot">GitHub Implementation</a> | <a href="https://medium.com/@rmcaduyac1_30165/building-a-medium-website-chatbot-a-step-by-step-guide-9387414e158c">Detailed Story</a></p>
+            </li>
+            <li>
+                <strong>AI-Powered PDF Question Answering:</strong>
+                <p><strong>Brief Description:</strong> An AI-Powered PDF Reviewer website was developed wherein a user can upload a PDF file, and the application will let the user ask a question or generate some questions with answers. This is a retrieval-based generative AI application.
+                <p><strong>Key Tool(s):</strong> LangChain, ChromaDB, OpenAI, Streamlit
+                <p><a href="https://ai-powered-pdf-question-answering-0909.streamlit.app/">App Link</a> | <a href="https://github.com/Rob-Christian/AI-Powered-PDF-Question-Answering">GitHub Implementation</a> | <a href="https://medium.com/@rmcaduyac1_30165/improved-application-for-pdf-reviewer-powered-by-ai-model-efb62288d255">Detailed Story</a></p>
+            </li>
+            <li>
+                <strong>Speech-to-Speech Translation:</strong>
+                <p><strong>Brief Description:</strong> This application allows the user to input an audio mp3 file, and the desired language. The application then outputs an equivalent speech but in the desired different language. The application utilizes OpenAI model where it converts the speech to text, then text-to-text translation, and text-to-speech conversion.
+                <p><strong>Key Tool(s):</strong> OpenAI, Streamlit
+                <p><a href="https://speech-to-speech-translation-0909.streamlit.app/">App Link</a> | <a href="https://github.com/Rob-Christian/Speech-to-Speech-Translation">GitHub Implementation</a> | <a href="https://medium.com/@rmcaduyac1_30165/building-a-speech-to-speech-translation-app-using-openai-models-3170ad4d1ccc">Detailed Story</a></p>
+            </li>
             <li>
                 <strong>Cats versus Dogs Classifier:</strong>
                 <p><strong>Brief Description:</strong> This is a website that lets the user input an image of either cat or dog and outputs the classification with corresponding probability. This application used pretrained ResNet50 and was trained from this <a href="https://www.kaggle.com/datasets/samuelcortinhas/cats-and-dogs-image-classification/data?select=train">kaggle dataset</a>.</p>
-                <p><strong>Key Tools:</strong> PyTorch, Streamlit, ResNet-50
+                <p><strong>Key Tool(s):</strong> PyTorch, Streamlit, ResNet-50
                 <p><a href="https://cats-vs-dogs-classifier-09199909.streamlit.app/">App Link</a> | <a href="https://github.com/Rob-Christian/Cats-vs-Dogs-Classifier">GitHub Implementation</a> | <a href="https://medium.com/@rmcaduyac1_30165/from-dataset-to-deployment-building-a-cat-vs-dog-classifier-using-fine-tuned-resnet-50-model-d3abc12ab023">Detailed Story</a></p>
+            </li>
+            <li>
+                <strong>Taglish Sentiment Analyzer:</strong>
+                <p><strong>Brief Description:</strong> This is a Taglish Sentiment Analyzer built using the transformers library and Streamlit. The app evaluates the sentiment of a Taglish (Tagalog-English) phrase or sentence and categorizes it into Positive, Neutral, or Negative, with an associated confidence level.
+                <p><strong>Key Tool(s):</strong> mBERT, HuggingFace Transformers, Streamlit
+                <p><a href="https://taglish-sentiment-analysis-0909.streamlit.app/">App Link</a> | <a href="https://github.com/Rob-Christian/Taglish-Sentiment-Analysis">GitHub Implementation</a> | <a href="https://medium.com/@rmcaduyac1_30165/mbert-as-a-taglish-sentiment-analyzer-a-journey-into-multilingual-natural-language-processing-5e7233407282">Detailed Story</a></p>
+            </li>
+            <li>
+                <strong>ArXiv Paper Abstract Summarizer:</strong>
+                <p><strong>Brief Description:</strong> This project provides a simple web application to summarize abstracts of research papers from arXiv. This app allows the user to input an ArXiv link, fetch the paper's metadata, and generate a summarized version of the paper's abstract using SOTA NLP.
+                <p><strong>Key Tool(s):</strong> Distilbart, HuggingFace Transformers, Streamlit
+                <p><a href="https://abstract-summarizer-0909.streamlit.app/">App Link</a> | <a href="https://github.com/Rob-Christian/Abstract-Summarizer">GitHub Implementation</a> | <a href="https://medium.com/@rmcaduyac1_30165/how-to-build-a-cloud-based-arxiv-paper-abstract-summarizer-with-streamlit-c825461fdbce">Detailed Story</a></p>
+            </li>
+        </ol>
+        <h3><strong>Some AI Implementations</strong></h3>
+            <li>
+                <strong>Telegram GPT-3 Powered Bot:</strong>
+                <p><strong>Brief Description:</strong> A GPT-3 powered Bot was created in Telegram in this project. Here, a Telegram Bot, OpenAI, and some python code were used. A memory conversation is also considered in this project since memory is vital for chatbots.
+                <p><strong>Key Tool(s):</strong> Telegram Bot, OpenAI</p>
+                <p><a href="https://github.com/Rob-Christian/Telegram-GPT-3-Bot">GitHub Implementation</a> | <a href="https://medium.com/@rmcaduyac1_30165/how-to-create-a-telegram-bot-powered-by-gpt-3-in-windows-a-step-by-step-guide-e10d868c40f7">Detailed Story</a></p>
             </li>
             <li>
                 <strong>Implementation of MiniGoogleNet:</strong>
@@ -200,7 +238,24 @@
                 <p><strong>Key Tool(s):</strong> PyTorch</p>
                 <p><a href="https://github.com/Rob-Christian/MiniGoogleNet">GitHub Implementation</a> | <a href="https://medium.com/@rmcaduyac1_30165/implementation-of-minigooglenet-e5b4cc50700b">Detailed Story</a></p>
             </li>
-        </ol>
+            <li>
+                <strong>Dialogue-Summarization using BART:</strong>
+                <p><strong>Brief Description:</strong> This machine learning implementation uses BART-base from HuggingFace Hub to fine-tune a <a href="https://huggingface.co/datasets/Samsung/samsum">Samsum Dataset</a>, which is a messenger-like dialogue conversation. Here, only 1500 samples were considered since the fine-tuning was done in the free version of Google Colab only.
+                <p><strong>Key Tool(s):</strong> Bart-Base, HuggingFace Transformers, Fine-Tuning, NLP</p>
+                <p><a href="https://github.com/Rob-Christian/Dialogue-Summarization">GitHub Implementation</a> | <a href="https://medium.com/@rmcaduyac1_30165/building-a-bart-based-model-for-dialogue-summarization-a-step-by-step-guide-e391bb28a8db">Detailed Story</a></p>
+            </li>
+            <li>
+                <strong>Text-to-Image Generator using StableDiffusion:</strong>
+                <p><strong>Brief Description:</strong> This project demonstrates how to generate images from textual prompts using a pre-trained diffusion model. It leverages the Dreamlike Diffusion model and integrates functionality to customize image dimensions and count.
+                <p><strong>Key Tool(s):</strong> Dreamlike Diffusion Model, HuggingFace Transformers, PyTorch</p>
+                <p><a href="https://github.com/Rob-Christian/Text-to-Image-Generator">GitHub Implementation</a> | <a href="https://medium.com/@rmcaduyac1_30165/bringing-ideas-to-life-building-a-text-to-image-generator-with-stable-diffusion-e652a346bcc5">Detailed Story</a></p>
+            </li>
+            <li>
+                <strong>Movie Review Sentiment Analysis:</strong>
+                <p><strong>Brief Description:</strong> This mini-project aims to classify movie reviews as either positive or negative using a Random Forest classifier. I compare the performance of the Random Forest classifier across different data preprocessing methods: Bag of Words, Term Frequency Inverse Document Frequency, Word-to-Vector
+                <p><strong>Key Tool(s):</strong> Word-to-vector, Bag of Words, TFIDF, Random Forest</p>
+                <p><a href="https://github.com/Rob-Christian/Movie-Reviews-Classification">GitHub Implementation</a> | <a href="https://medium.com/@rmcaduyac1_30165/movie-review-sentiment-analysis-with-random-forest-34dd05fc5eb1">Detailed Story</a></p>
+            </li>
     </section>
 
     <script>
